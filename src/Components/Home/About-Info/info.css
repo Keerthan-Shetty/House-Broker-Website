@@ -1,0 +1,43 @@
+.info{
+    background-color: rgba(241, 234, 234, 0.452);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.info-about h2{
+    font-weight: bold;
+    color: green;
+}
+.info-about p{
+    padding-top: 20px;
+    text-align: justify;
+}
+.info-about button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    border-color: green;
+    border-radius: 50px;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+.info-about button:hover{
+    transform: translateY(-3px);
+}
+.house-image img{
+    width: 100%;
+    height: max-content;
+    filter: drop-shadow( 0px 0px 12px rgb(11, 10, 10)) ;
+    animation: float 2s infinite ease;
+}
+@keyframes float {
+    from{
+        transform: translateY(20px);
+        
+    }
+    to{
+        transform: translateY(-20px);
+    }
+    
+}

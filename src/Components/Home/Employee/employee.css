@@ -1,0 +1,79 @@
+.employee{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.heading6 h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.card-top{
+    padding: 20px;
+    border: none;
+    transition: 0.3s ease-in;
+    margin: 20px;
+}
+.card-top:hover{
+    box-shadow: 0px 0px 16px rgb(186, 183, 183);
+}
+.listing{
+    color: #fff;
+    background-color: orange;
+    padding: 15px 30px;
+    width:max-content;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.person-img{
+    position: relative;
+}
+.person-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid silver;
+    padding: 10px;
+}
+.person-img .fa-solid{
+    position: absolute;
+    top: 50%;
+    left: 71%;
+    font-size: 20px;
+    color: blue;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-icon p i{
+    color: silver;
+    font-size: 25px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color:#d3c6c6a4;
+}
+.contact-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call, .message{
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.message{
+    background-color: green;
+    font-weight: 800;
+}
+.message:hover{
+    background-color: rgb(40, 213, 40);
+}
+.call{
+    background-color: #000;
+}
+.call:hover{
+    background-color: #eee9e9;
+}

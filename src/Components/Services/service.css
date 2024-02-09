@@ -1,0 +1,9 @@
+.service{
+    background: linear-gradient(rgba(0, 0, 255, 0.338),rgba(0, 0, 255, 0.233)),url('../../assets/image2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 13vh;
+    height: 40vh;
+    box-shadow: inset 0px 0px 10px rgb(28, 28, 28);
+}

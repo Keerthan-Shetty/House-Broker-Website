@@ -1,0 +1,18 @@
+
+.common{
+    padding-top: 100px;
+    color: #fff;
+    text-align: left;
+}
+@media (max-width:767px){
+    .common{
+        padding-top: 70px;
+    }
+}
+.common h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.common span{
+    font-size: 1.5rem;
+}
