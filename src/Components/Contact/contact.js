@@ -23,7 +23,7 @@ const Contact = () => {
       newError.email = 'Email is required'
       valid = false; 
     }else if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)){
-      newError.email = 'Email is invalid '
+      newError.email = 'Email is invalid'
       valid= false
     }else {
       newError.email = 'Perfect email*'
@@ -45,17 +45,17 @@ const Contact = () => {
 
   //input onchange
   const handleChange = (e) =>{
-    setFormData({...formData,[e.target.id] : e.target.value,});
+    setFormData({...formData,[e.target.id] : e.target.value});
   }
 
   // validateForm
 
   const validateForm= (e) =>{
     e.preventDefault();
-    if(formValidation()){
+    if(!formValidation()){
       console.log('Form Submitted Successfully :', formData)
     }else{
-      console.error("Form not submitted")
+      console.log("Form not submitted")
     }
   }
  
@@ -73,7 +73,7 @@ const Contact = () => {
             </div>
             <div className='row'>
               <div className='col-lg-6 col-md-12 col-sm-12'>
-                <label htmlFor='name'>Name</label>
+                <label htmlFor='userName'>Name</label>
                 <input type='text' id='userName' value={formData.userName} onChange={handleChange} placeholder='Name' />
                 {error.userName && <span>{error.userName}</span>}
               </div>
