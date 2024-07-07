@@ -12,7 +12,7 @@ const Award = () => {
                 <h2>Over 1,24,000+ Happy User Bieng With Us Still <br/>They Love Our Services</h2>
             </div>
             <div className='awards'>
-                {awards.map((value,index) => (
+                {awards.map((index,value) => (
                     <div className='box' key={index}>
                         <div className='icon'>
                             <span>{value.icon}</span>
